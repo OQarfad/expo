@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expotiles - Carrelage Premium & Sanitaires Haut de Gamme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Expo<span>tiles</span></a>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home" data-i18n="nav.home">Accueil</a></li>
+                    <li><a href="#about" data-i18n="nav.about">À propos</a></li>
+                    <li><a href="#products" data-i18n="nav.products">Produits</a></li>
+                    <li><a href="#gallery" data-i18n="nav.gallery">Galerie</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 data-i18n="hero.title">Élevez votre espace avec des carrelages et sanitaires premium</h1>
+            <p data-i18n="hero.subtitle">Découvrez la parfaite alliance de luxe et de fonctionnalité avec notre collection exquise de carrelages, sanitaires et robinetterie.</p>
+            <div class="btn-container">
+                <a href="#products" class="btn" data-i18n="hero.btn1">Découvrir nos collections</a>
+                <a href="#contact" class="btn btn-outline" data-i18n="hero.btn2">Nous contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="about.title">À propos d'Expotiles</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-i18n="about.subtitle">Redéfinir le luxe dans chaque détail</h3>
+                    <p data-i18n="about.p1">Fondée avec la vision de transformer les espaces ordinaires en expériences extraordinaires, Expotiles s'est imposée comme une destination incontournable pour les carrelages et sanitaires haut de gamme.</p>
+                    <p data-i18n="about.p2">Nos collections soigneusement sélectionnées proviennent des meilleurs fabricants mondiaux, garantissant une qualité inégalée et des designs intemporels.</p>
+                    <p data-i18n="about.p3">Avec plus de 15 ans d'expérience dans le secteur, notre équipe d'experts se consacre à vous aider à trouver les solutions parfaites pour vos projets résidentiels ou commerciaux.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Salle de bain luxueuse avec produits Expotiles">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="products.title">Nos Produits</h2>
+            </div>
+            <div class="product-categories">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/image 7.jpg" alt="Carrelage Premium">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-i18n="products.tiles.title">Carrelage Premium</h3>
+                        <p data-i18n="products.tiles.desc">Découvrez notre vaste collection de carrelages en céramique, porcelaine et pierre naturelle pour sols, murs et plus.</p>
+                        <a href="#" class="btn" data-i18n="products.btn">Voir la collection</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/image 6.jpg" alt="Sanitaires">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-i18n="products.fixtures.title">Sanitaires</h3>
+                        <p data-i18n="products.fixtures.desc">Élevez votre salle de bain avec notre sélection de lavabos, toilettes, baignoires et systèmes de douche luxueux.</p>
+                        <a href="#" class="btn" data-i18n="products.btn">Voir la collection</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/image 8.jpg" alt="Robinetterie Design">
+                    </div>
+                    <div class="product-info">
+                        <h3 data-i18n="products.faucets.title">Robinetterie Design</h3>
+                        <p data-i18n="products.faucets.desc">Découvrez notre gamme de robinets haut de gamme alliant technologie innovante et design époustouflant.</p>
+                        <a href="#" class="btn" data-i18n="products.btn">Voir la collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="gallery.title">Nos Réalisations</h2>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="Images/image 5.jpg" alt="" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/image 1.jpg" alt="" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/image 3.jpg" alt="Salon élégant" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/image 4.jpg" alt="Cuisine moderne" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox" id="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="contact.title">Contactez-nous</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.getintouch">Prenez contact</h3>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="contact.address">Marrakech, Maroc</span></p>
+                        <p><i class="fas fa-phone"></i> +212 6 00 11 22 33</p>
+                        <p><i class="fas fa-envelope"></i> info@expotiles.com</p>
+                        <p><i class="fas fa-clock"></i> <span data-i18n="contact.hours">Lun-Ven: 9h00 - 18h00</span></p>
+                    </div>
+                    <h3 data-i18n="contact.follow">Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.form.name">Nom</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.form.email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="contact.form.phone">Téléphone</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.form.message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" data-i18n="contact.form.submit">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="#" class="footer-logo">Expo<span>tiles</span></a>
+            <div class="footer-links">
+                <a href="#home" data-i18n="nav.home">Accueil</a>
+                <a href="#about" data-i18n="nav.about">À propos</a>
+                <a href="#products" data-i18n="nav.products">Produits</a>
+                <a href="#gallery" data-i18n="nav.gallery">Galerie</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <a href="#" data-i18n="footer.privacy">Politique de confidentialité</a>
+                <a href="#" data-i18n="footer.terms">Conditions d'utilisation</a>
+            </div>
+            <div class="copyright">
+                &copy; <span data-i18n="footer.copyright">2025 Expotiles. Tous droits réservés.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="translations.js"></script>
+</body>
+</html>
